@@ -17,7 +17,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: Arimo, sans-serif;
 }
 *,
 *::after,
@@ -30,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: Arimo, sans-serif;
 }
 ol, ul {
 	list-style: none;

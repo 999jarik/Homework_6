@@ -16,11 +16,12 @@ header {
     
 }
 .up {
-    margin: 0 auto;
+    margin: 0 auto 12px auto;
     max-width: 1200px;
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -37,9 +38,9 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5px;
+    padding: 0 4px;
     min-height: 27px;
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: #b1bcc0;
     background-image: linear-gradient(180.0deg, #206988 0%, #114165 62%, #0c3256 100%);
     box-shadow: 2px 3px 3px 0px rgba(150,150,150,0.75);
@@ -81,4 +82,65 @@ header {
 }
 .nav-buttons img {
     margin: 0 4px;
+}
+.baner {
+    margin: 0 auto;
+    min-height: 312px;
+    max-width: 1200px;
+    width: 100%;
+    background-image: url(../img/baner.png);
+    background-size: cover;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    margin: 5px auto;
+    max-width: 1158px;
+    width: 100%;
+    border: 1px solid #0d1642;
+    border-radius: 5px;
+    background-color: #ffffff;
+    background-image: linear-gradient(0.0deg, #000000 0%, #576068 100%);
+    box-shadow: 2px 3px 5px -1px rgba(0,0,0,0.75);
+    font-family: 'Lucida Sans Unicode', sans-serif;
+}
+.menu-nav {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 75%;
+    padding: 0 20px;
+}
+.menu-item a {
+    padding: 8px 25px;
+    text-decoration: none;
+    color: #b1bcc0;
+    font-size: 14px;
+}
+.menu-item a:hover {
+    background-image: linear-gradient(180.0deg, #206988 0%, #114165 61%, #0c3256 100%);
+    border-radius: 20px;
+}
+.cart {
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cart-text,
+.sum {
+    display: inline-block;
+    font-family: Arial;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: #929b9f;
+}
+.quantity,
+.money {
+    display: inline-block;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #0d5a8f;
 }
