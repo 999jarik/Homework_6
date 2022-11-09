@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    src: url('../fonts/LucidaSansUnicode.eot');
+    src: url('../fonts/LucidaSansUnicode.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LucidaSansUnicode.woff2') format('woff2'),
+        url('../fonts/LucidaSansUnicode.woff') format('woff'),
+        url('../fonts/LucidaSansUnicode.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+header {
+    padding: 20px 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.up {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.call {
+    position: relative;
+    top: 4px;
+}
+.phone {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #5e696d;
+}
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    min-height: 27px;
+    border-radius: 3px;
+    background-color: #b1bcc0;
+    background-image: linear-gradient(180.0deg, #206988 0%, #114165 62%, #0c3256 100%);
+    box-shadow: 2px 3px 3px 0px rgba(150,150,150,0.75);
+    font-family: 'Lucida Sans Unicode', sans-serif;
+}
+.input-login {
+    margin: 0 2px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: 1px solid #9ba1a3;
+    font-size: 11px;
+}
+.input-login:focus {
+    background: #d8f5ff;
+    border: 1px solid #9ba1a3;
+}
+.login-submit {
+    border: none;
+    background-color: #ffffff00;
+    color: #fff;
+    font-size: 11px;
+}
+.reg {
+    border-left: 1px solid #fff;
+    padding-left: 10px;
+    font-size: 11px;
+    color: #fff;
+    text-decoration: none;
+}
+.recover {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #bfbfbf;
+}
+.nav-buttons {
+    padding: 5px 5px;
+    border: 1px solid #bdc4c7;
+    border-radius: 30px;
+}
+.nav-buttons img {
+    margin: 0 4px;
+}
