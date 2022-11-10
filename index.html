@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zazor</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <div class="up">
-            <img src="img/call.png" alt="">
             <div class="phone">
+                <img class="call" src="img/call.png" alt="">
                 (044)123-45-67 (044)567-89-10
             </div>
             <div class="login">
                 <img src="img/login.png" alt="">
                 <form action="#" method="post">
-                    <input class="input-login" type="text" name="login" placeholder="Логін">
-                    <input class="input-login" type="password" name="pass" placeholder="Пароль">
+                    <input class="input-login" type="text" name="login" required placeholder="Логін">
+                    <input class="input-login" type="password" name="pass" required placeholder="Пароль">
                     <input class="login-submit" type="submit" value="вхід">
                     <a class="reg" href="#">реєстрація</a>
                     <a class="recover" href="#">відновити пароль</a>
@@ -51,11 +51,41 @@
         </nav>
     </header>
     <div class="filtres">
+        <div class="auto"></div>
+        <div class="tires"></div>
+        <div class="rims"></div>
     </div>
     <div class="content">
-        <div class="leftbar"></div>
-        <div class="centre"></div>
-        <div class="rightbar"></div>
+        <div class="leftbar">
+            <h2 class="leftbar-title"><img src="img/katalog.png" alt="">Каталог продукції:</h2>
+                <h2 class="leftbar-subtitle"><img src="img/circle.png" alt="">шини</h2>
+                    <ul class="leftbar-list">
+                        <li class="list-item"><a href="#">Варіант 1</a></li>
+                        <li class="list-item"><a href="#">Варіант 2</a></li>
+                        <li class="list-item"><a href="#">Варіант 3</a></li>
+                        <li class="list-item"><a href="#">Варіант 4</a></li>
+                </ul>
+                <h2 class="leftbar-subtitle"><img src="img/circle.png" alt="">ДИСКИ</h2>
+                    <ul class="leftbar-list">
+                        <li class="list-item"><a href="#">Варіант 1</a></li>
+                        <li class="list-item"><a href="#">Варіант 2</a></li>
+                        <li class="list-item"><a href="#">Варіант 3</a></li>
+                        <li class="list-item"><a href="#">Варіант 4</a></li>
+                    </ul>
+                <h2 class="leftbar-subtitle"><img src="img/circle.png" alt="">БОЛТИ</h2>
+                    <ul class="leftbar-list">
+                        <li class="list-item"><a href="#">Варіант 1</a></li>
+                        <li class="list-item"><a href="#">Варіант 2</a></li>
+                        <li class="list-item"><a href="#">Варіант 3</a></li>
+                        <li class="list-item"><a href="#">Варіант 4</a></li>
+        </div>
+        <div class="center">
+        </div>
+        <div class="rightbar">
+            <h2 class="rightbar-title"><img src="img/katalog.png" alt="">Бренди:</h2>
+            <h2 class="leftbar-subtitle"><img src="img/circle.png" alt="">ДИСКИ</h2>
+            <h2 class="leftbar-subtitle"><img src="img/circle.png" alt="">БОЛТИ</h2>
+        </div>
     </div>
     <footer>
     </footer>
