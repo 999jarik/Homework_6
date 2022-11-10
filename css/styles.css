@@ -65,6 +65,13 @@ header {
     color: #fff;
     font-size: 11px;
 }
+.login-submit:hover {
+    border: none;
+    background-color: #ffffff00;
+    color: rgb(134, 166, 255);
+    font-size: 11px;
+    text-decoration: underline;
+}
 .reg {
     border-left: 1px solid #fff;
     padding-left: 10px;
@@ -72,10 +79,21 @@ header {
     color: #fff;
     text-decoration: none;
 }
+.reg:hover {
+    padding-left: 10px;
+    font-size: 11px;
+    color: rgb(134, 166, 255);
+    text-decoration: underline;
+}
 .recover {
     font-size: 12px;
     text-decoration: underline;
     color: #bfbfbf;
+}
+.recover:hover {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(134, 166, 255);
 }
 .nav-buttons {
     padding: 5px 5px;
