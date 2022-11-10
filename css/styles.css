@@ -253,6 +253,9 @@ header {
     line-height: 25px;
     color: #465961;
 }
+.list-item {
+    height: 25px;
+}
 .leftbar-list a {
     text-decoration: none;
     color: #465961;
