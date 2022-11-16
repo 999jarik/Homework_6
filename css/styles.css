@@ -180,9 +180,9 @@ header {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.auto,
-.tires,
-.rims {
+.filtres-auto,
+.filtres-tires,
+.filtres-rims {
     padding: 10px;
     margin: 10px;
     border: 1px solid #9c9c9d;
@@ -190,14 +190,99 @@ header {
     box-shadow: 3px 4px 5px -1px rgba(104,104,104,0.75);
     font-family: 'Lucida Sans Unicode', sans-serif;
 }
-.auto {
+.filtres-auto {
     flex-basis: 50%;
+    position: relative;
+    padding: 5px 2px;
+
 }
-.tires {
+.auto-title {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #154467;
+    text-align: center;
+}
+.auto-subtitle-left {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #154468;
+}
+.auto-subtitle-right {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #154468;
+}
+.form-auto-wrap {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.name-select {
+    padding: 8px 15px;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+.name-select span {
+    font-size: 8px;
+    color: #77858b;
+}
+.filtres-select {
+    padding-top: 3px;
+    max-width: 100px;
+    width: 100%;
+}
+.select-auto {
+    flex-basis: 25%;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.74);
+}
+.select-auto:nth-child(3) {
+    width: 50%;
+}
+.auto-submit {
+    position: absolute;
+    bottom: 4px;
+    right: 20px;
+    transition: 0.2s all;
+}
+.auto-submit:hover, .auto-submit:focus {
+    right: 26px;
+}
+.auto-submit-button {
+    background: transparent;
+    border: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 0.025em;
+    color: #154467;
+}
+.filtres-tires {
     flex-basis: 20%;
+    position: relative;
 }
-.rims {
+.filtres-rims {
     flex-basis: 30%;
+    position: relative;
 }
 
 .content {
