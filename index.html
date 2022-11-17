@@ -63,7 +63,7 @@
                         <p class="name-select">Рік випуску <span>автомобіля:</span></p>
                         <p class="name-select">Комплектація:</p>
                     </div>
-                    <div class="filtres-select">
+                    <div class="auto-select">
                         <select class="select-auto" name="brand" id="">
                             <option value="">Option 1</option>
                             <option value="">Option 2</option>
@@ -79,7 +79,7 @@
                         <p class="name-select">Рік випуску <span>автомобіля:</span></p>
                         <p class="name-select">Комплектація:</p>
                     </div>
-                    <div class="filtres-select">
+                    <div class="auto-select">
                         <select class="select-auto" name="brand" id="">
                             <option value="">Option 1</option>
                             <option value="">Option 2</option>
@@ -95,8 +95,95 @@
                 </div>
             </form>
         </div>
-        <div class="filtres-tires"></div>
-        <div class="filtres-rims"></div>
+        <div class="filtres-tires">
+            <h3 class="tires-title">Пошук шин</h3>
+            <form method="post">
+                <div class="form-tires-wrap">
+                    <div class="label-tires">
+                        <p class="label-tires-item">Розмір:</p>
+                        <p class="label-tires-item">R</p>
+                        <p class="label-tires-item">Сезон:</p>
+                    </div>
+                    <div class="size-form">
+                        <select class="tires-size" name="tires-size">
+                            <option value="">145</option>
+                            <option value="">135</option>
+                            <option value="">125</option>
+                            <option value="">115</option>
+                            <option value="">105</option>
+                        </select>
+                        <span>/</span>
+                        <select class="tires-size" name="tires-size"></select>
+                        <select class="tires-radius" name="radius" id="">
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                        </select>
+                        <div class="size-checkboxes">
+                            <label class="label-checkbox"><input class="size-checkbox" type="checkbox" name="season">Літо</label>
+                            <label class="label-checkbox"><input class="size-checkbox" type="checkbox" name="season">Зима</label>
+                            <label class="label-checkbox"><input class="size-checkbox" type="checkbox" name="season" checked>Всесезон</label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="size-submit">
+                    <input class="size-submit-button" type="submit" value="Пошук...">
+                </div>
+            </form>
+        </div>
+        <div class="filtres-rims">
+            <h3 class="rims-title">Пошук дисків</h3>
+            <form method="post">
+                <div class="rims-wrap">
+                    <div class="rims-left">
+                        <div class="rims-labels">
+                            <p class="rims-label">Діаметр <span>диска</span></p>
+                            <p class="rims-label">Кількість <span>отворів кріплення</span></p>
+                            <p class="rims-label">Діаметр <span>розташування отворів кріплення</span></p>
+                        </div>
+                        <div class="rims-selects">
+                            <select class="select-left" name="diametr-rims" id="" required>
+                                <option value="">Option 1</option>
+                                <option value="">Option 2</option>
+                                <option value="">Option 3</option>
+                            </select>
+                            <select class="select-left" name="qty-hole" id="" required>
+                                <option value="">Option 1</option>
+                                <option value="">Option 2</option>
+                                <option value="">Option 3</option>
+                            </select>
+                            <select class="select-left" name="diametr-hole" id="" required>
+                                <option value="">Option 1</option>
+                                <option value="">Option 2</option>
+                                <option value="">Option 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="rims-right">
+                        <p class="right-label">ДЦО <span>(діаметр центрального отвору):</span></p>
+                        <select class="right-item" name="DCO" required>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                        </select>
+                        <p class="right-label">ET <span>(виліт диску):</span></p>
+                        <select class="right-item" name="ET" required>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="size-submit">
+                    <input class="size-submit-button" type="submit" value="Пошук...">
+                </div>
+            </form>
+        </div>
     </div>
     <div class="content">
         <div class="leftbar">

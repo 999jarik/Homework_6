@@ -183,7 +183,7 @@ header {
 .filtres-auto,
 .filtres-tires,
 .filtres-rims {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     border: 1px solid #9c9c9d;
     border-radius: 10px;
@@ -241,13 +241,12 @@ header {
     font-size: 8px;
     color: #77858b;
 }
-.filtres-select {
+.auto-select {
     padding-top: 3px;
     max-width: 100px;
     width: 100%;
 }
 .select-auto {
-    flex-basis: 25%;
     display: block;
     margin-bottom: 10px;
     width: 100%;
@@ -258,8 +257,8 @@ header {
 }
 .auto-submit {
     position: absolute;
-    bottom: 4px;
-    right: 20px;
+    bottom: 2px;
+    right: 10px;
     transition: 0.2s all;
 }
 .auto-submit:hover, .auto-submit:focus {
@@ -280,9 +279,147 @@ header {
     flex-basis: 20%;
     position: relative;
 }
+.tires-title {
+    margin-bottom: 18px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #154467;
+}
+.form-tires-wrap {
+    display: flex;
+}
+.label-tires {
+    flex-basis: 25%;
+}
+.label-tires-item {
+    padding: 0 15px 0 0;
+    margin-bottom: 24px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #000000;
+}
+.label-tires-item:nth-child(2) {
+    text-align: end;
+}
+.size-form {
+    flex-basis: 75%;
+}
+.tires-size {
+    width: 40%;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.74);
+}
+.tires-radius {
+    margin-bottom: 10px;
+    display: block;
+    width: 30%;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.74);
+}
+.size-checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+.label-checkbox {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+}
+.size-submit {
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    transition: 0.2s all;
+}
+.size-submit:hover, .auto-submit:focus {
+    right: 26px;
+}
+.size-submit-button {
+    background: transparent;
+    border: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 0.025em;
+    color: #154467;
+}
 .filtres-rims {
     flex-basis: 30%;
     position: relative;
+}
+.rims-title {
+    margin-bottom: 18px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #154467;
+    position: absolute;
+}
+.rims-wrap {
+    display: flex;
+}
+.rims-left {
+    display: flex;
+    padding: 20px 5px 5px 0;
+    flex-basis: 63%;
+}
+.rims-label {
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #000000;
+    max-width: 75px;
+    padding-right: 25px;
+}
+.rims-label span {
+    font-size: 9px;
+    color: #77858b;
+}
+.rims-selects {
+    width: 100%;
+    padding-right: 10px;
+}
+.select-left {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.74);
+}
+.select-left:nth-child(2) {
+    width: 90%;
+}
+.rims-right {
+    flex-basis: 37%;
+    border-left: 1px solid #bdc6ca;
+}
+.right-label {
+    max-width: 50px;
+    margin: 0 auto;
+    padding: 8px 5px;
+    font-size: 9px;
+    font-weight: 700;
+    color: #000000;
+}
+.right-label span {
+    font-size: 8px;
+    color: #77858b;
+}
+.right-item {
+    display: block;
+    max-width: 60px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.74);
+}
+.right-item option {
+    border-radius: none;
 }
 
 .content {
